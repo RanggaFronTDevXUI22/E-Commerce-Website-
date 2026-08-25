@@ -52,19 +52,38 @@ html{
   --h1-font: 2.4rem;
   --h2-font: 2rem;
   --h3-font: 1.8rem;
-  --h4-font: 11.6rem;
-  --normal-font: ;
-  --small-font: ;
-  --smaller-font: ;
+  --h4-font: 1.6rem;
+  --normal-font: 1.5rem;
+  --small-font: 1.3rem;
+  --smaller-font: 1.2rem;
 }
 }
 
 
 /* Pre-CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,button,input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+  font-weight: var(--font-regular);
+  color: var(--text-color);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--white-color);
+}
+
 
 
 /* Reusuable CSS */
 
+.section home
 
 /* Header */
 
